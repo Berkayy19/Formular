@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./formular.css">
+    <link href="image" rel="shortcuticon" type="image/x-icon">
+</head>
+
+<body>
+    <form action="https://webhook.site/946ac524-564d-4508-b600-8a78a31b4102" method="post">
+        <div class="center">
+            <div class="card" style="width: 55%;">
+                <div class="card-body">
+                    <h3 id="firsttitle">General Information</h3>
+                    <div id="gender">
+                        <input type="radio" id="html" name="Gender" value="Male">
+                        <label for="html">Male</label>
+                    </div>
+                    <input type="radio" id="css" name="Gender" value="Female" checked="checked">
+                    <label for="css">Female</label><br>
+                    <div id="Name">
+                        <h4 for="fname">First name:</h4>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <h4 for="lname">Last name:</h4>
+                        <input type="text" id="lname" name="lname"><br><br>
+                    </div>
+                    <h4 for="street">Street and Nr.</h4>
+                    <input type="text" id="street" name="street"><br><br>
+                    <h4 for="city">City</h4>
+                    <input type="text" id="city" name="city"><br><br>
+                    <h4 for="postalcode">Postal Code</h4>
+                    <input type="text" id="postalcode" name="postalcode"><br><br>
+                    <h4 for="birthdate">Birth Date</h4>
+                    <input type="date" id="daten" name="birthdate"><br><br>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="card" style="width: 55%;">
+                <div class="card-body">
+                    <h3 class="card-title" id="secondtitle">Contact Information</h3>
+                    <h4 for="email" id="secondtitle" class="padding">Email</h4>
+                    <input type="text" id="email" name="email"><br><br>
+                    <h4 for="Number" id="secondtitle">Phone Number</h4>
+                    <input type="text" id="Number" name="Number"><br><br>
+                    <h4 id="secondtitle">Preferred Contact</h4>
+                    <div>
+                        <label for ="preferred"><input type="checkbox" name="preferred" value="Email"></label>
+                        <label for="preferred" id="secondtitle">Email</label><br>
+                        <label for ="preferred"><input type="checkbox" name="preferred" value="Phone Number"></label>
+                        <label for="preferred" id="secondtitle">Phone Number</label><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="card" style="width: 55%;">
+                <div class="card-body">
+                    <h3 class="card-title" id="thirdtitle">Your Application</h3>
+                    <h4 for="motivation" id="thirdtitle" class="padding">Motivation letter</h4>
+                    <textarea id="motivationsschreiben" name="Motivationsschreiben"></textarea>
+                    <h4 for="Resume" id="thirdtitle">Resume</h4>
+                    <input type="file" id="File" name="Resume">
+                    <h4 for="urlInput" id="thirdtitle" class="padding">GitHub Link</h4>
+                    <input type="url" id="urlInput" name="GitHub Link">
+                    <h4 for="urlInput" id="thirdtitle" class="padding">Portfolio Link</h4>
+                    <input type="url" id="urlInput" name="Portfolio link">
+                    <div id="thirdtitle" class="padding">
+                        <label for="Datenschutzbestimmungen">
+                            <input type="checkbox" name="Datenschutzbestimmungen" id="Datenschutzbestimmungen"
+                                value="Ja" required></label>
+                        <label for="Datenschutzbestimmungen">
+                            Hiermit bin Ich mit den
+                            <a href="https://go4customer.com/call-center-in-mumbai">Datenschutzbestimmungen</a>
+                            einverstanden</label>
+
+                        <div class="padding">
+                            <input type=submit value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
